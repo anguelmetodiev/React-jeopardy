@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+  background-color: #3e5f73;
+  margin-top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.App h1{
+  color: rgb(255, 255, 255);
+  font-family: "Serif", cursive;
+  margin-top: 0;
+}
+
+.Board h1{
+  color: #e9d27a;
+  font-family: "Serif", cursive;
+  margin-top: 0;
+}
+
+.score h1{
+  color:#e9d27a
+}
+
+.score span{
+  color: rgb(255, 255, 255);
+}
+
+.score button{
+  margin-left: 15px;
+  justify-content: space-evenly;
+  height: 40px;
+  border-radius: 0;
+  width: 100px;
+  border: none;
+}
+
+.score button:first-of-type{
+  background-color: #fe938c;
+  
+}
+
+.score button:nth-child(2){
+  background-color: #6191b5;
+}
+
+.score button:nth-last-child(1){
+  background-color: #e71d37;
+}
+
+.Board h3{
+  color: #e9d27a;
+}
+
+.Board span{
+  color: rgb(255, 255, 255);
+}
+
+.Board button{
+  height: 38px;
+  border-radius: 0;
+  width: 100px;
+  border: none;
+  color: #525251;
+  font-weight: bold;
+  background-color: #ead27a;
+}
+
+.answer button{
+  height: 50px;
+  width: 50%;
+  border: none;
+  background-color: #1a2650;
+  color: rgb(255, 255, 255);
+}
+.answer h2{
+  color: rgb(255, 255, 255);
+}
+
+
+
